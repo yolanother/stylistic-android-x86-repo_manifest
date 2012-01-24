@@ -233,4 +233,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
 
+  <!-- stylistic x86 -->
+  <project path="hardware/wacom/input" name="platform/hardware/wacom/input" remote="x86" revision="gingerbread-x86" />
+
 </manifest>
