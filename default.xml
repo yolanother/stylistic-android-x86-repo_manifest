@@ -5,6 +5,8 @@
            fetch="git://android-x86.git.sf.net/gitroot/android-x86/korg/" />
   <remote  name="x86"
            fetch=".." />
+  <remote  name="github"
+           fetch="git://github.com" />
   <default revision="refs/tags/android-4.0.3_r1"
            remote="aosp"
            sync-j="1" />
@@ -235,5 +237,5 @@
 
   <!-- stylistic x86 -->
   <project path="hardware/wacom/input" name="platform/hardware/wacom/input" remote="x86" revision="gingerbread-x86" />
-
+  <project path="device/fujitsu" name="yolanother/stylistic-android-x86-device_fujitsu" revision="master" />
 </manifest>
